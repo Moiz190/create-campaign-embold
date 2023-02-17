@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Campaign</title>
+    <link rel="stylesheet" href="create-campaign.css">
+</head>
+<body>
+    <div class="create-campaign-container">
+        <div class="create-campaign-card">
+            <div class="generalInfoContainer">
+                <h2>General Information</h2>
+                <div>
+                    <div>
+                        <label for="campaignName">Campaign Name</label>
+                        <input type="text" id="campaignName" placeholder="Campaign Name Here">
+                    </div>
+                    <div>
+                        <label>Add Campaign Picture</label>
+                        <span class="select-image"><img src="images/plus.png" alt="plus" /></span>
+                    </div>
+                    <div>
+                        <label for="branchName">Branch Name</label>
+                        <input type="text" id="branchName" placeholder="Branch Name Here">
+                    </div>
+                    <div>
+                        <label for="campaignBudget">Total Campaign Budget</label>
+                        <input type="text" id="campaignBudget" placeholder="Campaign Budget">
+                    </div>
+                    <div>
+                        <label for="campaignObjective">Campaign Objective</label>
+                        <input type="text" id="campaignObjective" placeholder="Branch Awareness">
+                    </div>
+                    <div>
+                        <label for="campaignDiscovery">Campaign Discovery</label>
+                        <input type="text" id="campaignDiscovery" placeholder="Campaign Discovery">
+                    </div>
+                    <div>
+                        <label for="compensation">Compensation Type</label>
+                        <input type="text" id="compensation" placeholder="Paid + Gifted">
+                    </div>
+                    <div>
+                        <label for="giftValue">Gift Value</label>
+                        <input type="text" id="giftValue" placeholder="Enter value of the gift each influencer will receive.">
+                    </div>  
+                </div>
+                <div class="giftDetailsContainer">
+                    <label for="giftDetails">Gift Details</label>
+                    <textarea id="giftDetails" placeholder="Enter details about the gift each influencer will receive."></textarea>
+                </div>
+                <div class="campaignSummaryContainer">
+                    <label for="campaignSummary">Campaign Summary</label>
+                    <p>You may want to share an introduction to your brand, product and what you are hoping to achieve with this campaign.</p>
+                    <textarea id="campaignSummary"  placeholder="Provide influencers a summary of your campaign."></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

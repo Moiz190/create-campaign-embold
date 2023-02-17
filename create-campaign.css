@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flex-col, .create-campaign-container .create-campaign-card .generalInfoContainer .giftDetailsContainer, .create-campaign-container .create-campaign-card .generalInfoContainer .campaignSummaryContainer, .create-campaign-container .create-campaign-card .generalInfoContainer > div div {
+  display: flex;
+  flex-direction: column;
+}
+
+.pb-1, .create-campaign-container .create-campaign-card .generalInfoContainer .giftDetailsContainer, .create-campaign-container .create-campaign-card .generalInfoContainer .campaignSummaryContainer, .create-campaign-container .create-campaign-card .generalInfoContainer > div div, .create-campaign-container .create-campaign-card .generalInfoContainer label {
+  padding-bottom: 0.4rem;
+}
+
+@font-face {
+  font-family: "QuickSand";
+  src: url("./quicksand/Quicksand-Regular.ttf");
+}
+body {
+  font-family: "QuickSand";
+}
+
+img {
+  width: 100%;
+}
+
+.create-campaign-container {
+  width: 100%;
+  height: 100%;
+  padding: 2rem 0;
+}
+.create-campaign-container .create-campaign-card {
+  width: 50%;
+  min-width: 250px;
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem 2rem;
+  box-shadow: 1px 1px 7px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+}
+@media (max-width: 768px) {
+  .create-campaign-container .create-campaign-card {
+    padding: 1rem 1.5rem;
+  }
+}
+.create-campaign-container .create-campaign-card .generalInfoContainer label {
+  color: #ff6f58;
+  font-weight: 600;
+}
+@media (max-width: 1024px) {
+  .create-campaign-container .create-campaign-card .generalInfoContainer label {
+    font-size: 0.8rem;
+  }
+}
+.create-campaign-container .create-campaign-card .generalInfoContainer h2 {
+  color: #ff6f58;
+  padding-bottom: 1.5rem;
+}
+@media (max-width: 768px) {
+  .create-campaign-container .create-campaign-card .generalInfoContainer h2 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
+.create-campaign-container .create-campaign-card .generalInfoContainer > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.create-campaign-container .create-campaign-card .generalInfoContainer > div div {
+  width: 48%;
+}
+@media (max-width: 768px) {
+  .create-campaign-container .create-campaign-card .generalInfoContainer > div div {
+    width: 100%;
+  }
+}
+.create-campaign-container .create-campaign-card .generalInfoContainer > div div > .select-image {
+  width: 3rem;
+  background-color: rgb(228, 228, 228);
+  padding: 0.9rem 1.2rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.create-campaign-container .create-campaign-card .generalInfoContainer > div div > input {
+  padding: 0.9rem 0.4rem;
+}
+.create-campaign-container .create-campaign-card .generalInfoContainer > div div > input:focus {
+  outline: 0;
+}
+.create-campaign-container .create-campaign-card .generalInfoContainer .giftDetailsContainer > p, .create-campaign-container .create-campaign-card .generalInfoContainer .campaignSummaryContainer > p {
+  font-size: 0.8rem;
+  padding-bottom: 0.3rem;
+}
+@media (max-width: 768px) {
+  .create-campaign-container .create-campaign-card .generalInfoContainer .giftDetailsContainer > p, .create-campaign-container .create-campaign-card .generalInfoContainer .campaignSummaryContainer > p {
+    font-size: 0.7rem;
+  }
+}
+.create-campaign-container .create-campaign-card .generalInfoContainer .giftDetailsContainer > textarea, .create-campaign-container .create-campaign-card .generalInfoContainer .campaignSummaryContainer > textarea {
+  resize: none;
+  padding: 0.4rem;
+  height: 8rem;
+}
+.create-campaign-container .create-campaign-card .generalInfoContainer .giftDetailsContainer > textarea:focus, .create-campaign-container .create-campaign-card .generalInfoContainer .campaignSummaryContainer > textarea:focus {
+  outline: 0;
+}/*# sourceMappingURL=create-campaign.css.map */
